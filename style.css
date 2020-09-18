@@ -1,0 +1,33 @@
+body{
+  text-align: center;
+}
+.row{
+  text-align: center;
+}
+.card {
+  margin: 5px;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+.foundCard {
+  background-color: white;
+  pointer-events: none;
+  border: none;
+}
+button {
+  background-color: cadetblue;
+  border: 1px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
