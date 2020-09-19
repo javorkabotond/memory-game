@@ -179,10 +179,10 @@ function flipCard() {
  * - a karakter kivalasztason
  * - else reszen is
  */
-function generateTable(weight, height) {
+function generateTable(width, height) {
   for(let h = 0; h < height; h++){
     board[h] = [];
-    for(let w = 0; w < weight; w++) {
+    for(let w = 0; w < width; w++) {
       let randomNumber = Math.floor(Math.random() * 8);
       if(characters[randomNumber].piece != 2) {
         board[h][w] = characters[randomNumber].value;
